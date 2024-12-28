@@ -43,7 +43,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:eroded_badlands": "2024-12-28 06:43:08 +0000",
       "minecraft:bamboo_jungle": "2024-12-26 08:29:17 +0000",
+      "minecraft:wooded_badlands": "2024-12-28 06:39:23 +0000",
+      "minecraft:badlands": "2024-12-28 06:40:19 +0000",
       "minecraft:savanna_plateau": "2024-12-28 06:19:52 +0000",
       "minecraft:beach": "2024-12-26 08:43:38 +0000",
       "minecraft:river": "2024-12-26 08:38:23 +0000",

@@ -717,3 +717,28 @@ BCLib - The End  BiomeSource (57426fc9)
 [28Dec2024 06:30:03.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luchito546: Teleported luchito546 to BOLLITO_zwz]
 [28Dec2024 06:31:08.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz was shot by Skeleton
 [28Dec2024 06:34:45.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luchito546: Teleported luchito546 to BOLLITO_zwz]
+[28Dec2024 06:40:25.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz blew up
+[28Dec2024 06:40:34.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 was blown up by Phoenix
+[28Dec2024 06:41:03.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has reached the goal [Ferocious Firebird]
+[28Dec2024 06:44:38.894] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[28Dec2024 06:44:38.896] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[28Dec2024 06:46:14.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Sweet Dreams]
+[28Dec2024 06:46:19.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Sweet Dreams]
+[28Dec2024 06:48:46.196] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-81, y=-56, z=2188}
+[28Dec2024 06:48:54.326] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-56, z=2208}
+[28Dec2024 06:48:54.376] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-81, y=-56, z=2188}
+[28Dec2024 06:48:54.377] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-81, y=-56, z=2188}
+[28Dec2024 06:48:54.378] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-81, y=-56, z=2188}
+[28Dec2024 06:48:54.426] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2284}
+[28Dec2024 06:48:54.426] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2284}
+[28Dec2024 06:48:54.426] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2286}
+[28Dec2024 06:48:54.427] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2286}
+[28Dec2024 06:48:54.427] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-24, y=-57, z=2292}
+[28Dec2024 06:48:54.427] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2288}
+[28Dec2024 06:48:54.427] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2288}
+[28Dec2024 06:48:54.428] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2290}
+[28Dec2024 06:48:54.428] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-21, y=-58, z=2290}
+[28Dec2024 06:48:54.428] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-18, y=-57, z=2292}
+[28Dec2024 06:48:54.473] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-81, y=-56, z=2188}
+[28Dec2024 06:49:00.772] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-17, y=-56, z=2208}
+[28Dec2024 06:49:02.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luchito546: Teleported luchito546 to BOLLITO_zwz]
