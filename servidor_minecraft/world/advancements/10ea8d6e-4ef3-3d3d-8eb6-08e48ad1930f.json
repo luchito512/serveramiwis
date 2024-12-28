@@ -46,7 +46,8 @@
       "minecraft:bamboo_jungle": "2024-12-26 08:28:59 +0000",
       "minecraft:river": "2024-12-26 08:38:15 +0000",
       "minecraft:lush_caves": "2024-12-26 08:54:38 +0000",
-      "minecraft:jungle": "2024-12-26 08:38:25 +0000"
+      "minecraft:jungle": "2024-12-26 08:38:25 +0000",
+      "minecraft:savanna": "2024-12-28 06:15:30 +0000"
     },
     "done": false
   },
@@ -280,6 +281,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_beef": "2024-12-28 06:13:19 +0000",
+      "bread": "2024-12-28 06:06:53 +0000",
       "melon_slice": "2024-12-26 08:30:55 +0000",
       "cooked_chicken": "2024-12-26 08:52:54 +0000"
     },
@@ -972,6 +975,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-26 08:43:48 +0000",
+      "minecraft:spider": "2024-12-28 06:11:17 +0000",
       "minecraft:creeper": "2024-12-26 08:59:38 +0000",
       "minecraft:zombie": "2024-12-26 08:31:43 +0000"
     },
@@ -1775,9 +1779,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-12-28 06:10:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-28 06:08:39 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-12-28 06:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-12-28 06:10:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2024-12-28 06:01:49 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-12-28 06:09:12 +0000"
     },
     "done": true
   },
@@ -1790,6 +1824,18 @@
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2024-12-28 06:01:49 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-12-28 06:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-28 06:09:12 +0000"
     },
     "done": true
   },
