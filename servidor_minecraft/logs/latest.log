@@ -1,146 +1,160 @@
-[26Dec2024 08:27:48.031] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[26Dec2024 08:27:48.035] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[26Dec2024 08:27:48.628] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26Dec2024 08:27:48.636] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[26Dec2024 08:27:48.657] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[26Dec2024 08:27:48.677] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[26Dec2024 08:27:48.724] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serveramiwis/servidor_minecraft/mods/Connector-1.0.0-beta.36+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
-[26Dec2024 08:27:49.111] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[26Dec2024 08:27:49.112] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Dec2024 08:27:49.113] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Dec2024 08:27:49.114] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Dec2024 08:27:49.574] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 50 dependencies adding them to mods collection
-[26Dec2024 08:27:50.212] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 14 candidates to load
-[26Dec2024 08:27:51.389] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[26Dec2024 08:27:52.912] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26Dec2024 08:27:53.188] [main/ERROR] [dev.su5ed.sinytra.connector.service.FabricMixinBootstrap/]: Non-unique Mixin config name mixinextras.init.mixins.json used by the mods com_github_llamalad7_mixinextras and mixinextras
-[26Dec2024 08:27:53.193] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[26Dec2024 08:27:53.411] [main/WARN] [mixin/]: Reference map 'hamsters.refmap.json' for hamsters.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Dec2024 08:27:53.431] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Dec2024 08:27:53.548] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Dec2024 08:27:54.457] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[26Dec2024 08:27:54.457] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[26Dec2024 08:27:54.458] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[26Dec2024 08:27:54.460] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[26Dec2024 08:27:54.461] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[26Dec2024 08:27:54.461] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[26Dec2024 08:27:55.968] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[26Dec2024 08:27:57.289] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin from mod crittersandcompanions::handler$zlp000$crittersandcompanions$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[26Dec2024 08:28:02.901] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.generator to auto sync (file hash)
-[26Dec2024 08:28:02.902] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.main to auto sync (content diff)
-[26Dec2024 08:28:02.909] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.biomes to auto sync (file hash)
-[26Dec2024 08:28:03.048] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Registered object did not get ID it asked for. Name: ResourceKey[minecraft:mob_effect / spell_power:critical_damage] Expected: 730 Got: 35
-[26Dec2024 08:28:03.048] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Registered object did not get ID it asked for. Name: ResourceKey[minecraft:mob_effect / spell_power:critical_chance] Expected: 731 Got: 36
-[26Dec2024 08:28:03.048] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Registered object did not get ID it asked for. Name: ResourceKey[minecraft:mob_effect / spell_power:haste] Expected: 732 Got: 37
-[26Dec2024 08:28:03.649] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.entities to auto sync (file hash)
-[26Dec2024 08:28:03.650] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.blocks to auto sync (file hash)
-[26Dec2024 08:28:03.650] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.items to auto sync (file hash)
-[26Dec2024 08:28:03.650] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.biomes to auto sync (file hash)
-[26Dec2024 08:28:03.651] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.recipes to auto sync (file hash)
-[26Dec2024 08:28:03.651] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[26Dec2024 08:28:12.111] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
-[26Dec2024 08:28:12.248] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[26Dec2024 08:28:12.248] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[26Dec2024 08:28:13.392] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[26Dec2024 08:28:13.397] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 2 injected RegistryDataLoader worldgen registries
-[26Dec2024 08:28:14.316] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
-[26Dec2024 08:28:15.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[26Dec2024 08:28:15.715] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[26Dec2024 08:28:15.716] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[26Dec2024 08:28:15.716] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[26Dec2024 08:28:15.717] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[26Dec2024 08:28:15.731] [main/INFO] [journeymap/]: Initializing Packet Registries
-[26Dec2024 08:28:15.818] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[26Dec2024 08:28:15.818] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[26Dec2024 08:28:15.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
-[26Dec2024 08:28:15.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[26Dec2024 08:28:16.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
-[26Dec2024 08:28:16.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[26Dec2024 08:28:16.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18p1 Target: 5.10.3
-[26Dec2024 08:28:16.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Dec2024 08:28:16.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[26Dec2024 08:28:16.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[26Dec2024 08:28:17.138] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
-[26Dec2024 08:28:17.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
-[26Dec2024 08:28:17.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA_OUTDATED Current: 3.0.0-beta.4 Target: 3.0.0-beta.9
-[26Dec2024 08:28:20.465] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Dec2024 08:28:23.996] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
-[26Dec2024 08:28:23.996] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Running Pre Patchers on ./world/.
-[26Dec2024 08:28:24.007] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] Applying Fixes on Level
-[26Dec2024 08:28:24.008] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.reading%
-[26Dec2024 08:28:24.009] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.players%
-[26Dec2024 08:28:24.012] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/3955f2e8-25c9-4689-b0de-2c94de9e4bb4.dat
-[26Dec2024 08:28:24.014] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.level%
-[26Dec2024 08:28:24.014] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting level.dat in ./world/.
-[26Dec2024 08:28:24.014] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.worlddata%
-[26Dec2024 08:28:24.014] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.regions%
-[26Dec2024 08:28:24.015] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
-[26Dec2024 08:28:24.015] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
-[26Dec2024 08:28:24.016] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
-[26Dec2024 08:28:24.017] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
-[26Dec2024 08:28:24.024] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
-[26Dec2024 08:28:24.028] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
-[26Dec2024 08:28:24.031] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
-[26Dec2024 08:28:24.031] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
-[26Dec2024 08:28:24.051] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
-[26Dec2024 08:28:24.056] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
-[26Dec2024 08:28:24.095] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
-[26Dec2024 08:28:24.227] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
-[26Dec2024 08:28:24.398] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.saving%
-[26Dec2024 08:28:24.399] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
-[26Dec2024 08:28:24.411] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
-[26Dec2024 08:28:24.411] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
-[26Dec2024 08:28:24.456] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on backpacked.common.mixins.json:common.ServerPlayerGameModeMixin from mod backpacked::handler$zmn000$backpacked$OnBlockMined exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[26Dec2024 08:28:24.546] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/biome
-[26Dec2024 08:28:24.574] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_aurora_cave
-[26Dec2024 08:28:24.575] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_end_cave
-[26Dec2024 08:28:24.576] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[26Dec2024 08:28:24.578] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:jade_cave
-[26Dec2024 08:28:24.580] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_aurora_cave
-[26Dec2024 08:28:24.581] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[26Dec2024 08:28:24.582] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:megalake_grove
-[26Dec2024 08:28:24.582] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:neon_oasis
-[26Dec2024 08:28:24.583] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:painted_mountains
-[26Dec2024 08:28:25.685] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (6577736c)
-[26Dec2024 08:28:25.688] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.690] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[26Dec2024 08:28:25.690] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[26Dec2024 08:28:25.690] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[26Dec2024 08:28:25.707] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (427f2b70)
-[26Dec2024 08:28:25.708] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.725] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (37b140ba)
-[26Dec2024 08:28:25.726] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.726] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[26Dec2024 08:28:25.726] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[26Dec2024 08:28:25.727] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[26Dec2024 08:28:25.728] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (76e7194d)
-[26Dec2024 08:28:25.728] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.729] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (67bb3c8b)
-[26Dec2024 08:28:25.730] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.730] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[26Dec2024 08:28:25.730] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[26Dec2024 08:28:25.730] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[26Dec2024 08:28:25.734] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4c2d36ab)
-[26Dec2024 08:28:25.734] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.736] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (203ab4f6)
-[26Dec2024 08:28:25.736] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:25.736] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[26Dec2024 08:28:25.737] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[26Dec2024 08:28:25.737] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[26Dec2024 08:28:25.738] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (ce9b54f)
-[26Dec2024 08:28:25.738] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:26.020] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/surface_rules
-[26Dec2024 08:28:26.077] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid BCLBiome Registry available!
-[26Dec2024 08:28:26.077] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid Biome Registry available!
-[26Dec2024 08:28:26.493] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (531f8da8)
-[26Dec2024 08:28:26.494] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:26.500] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (10195814)
-[26Dec2024 08:28:26.505] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[26Dec2024 08:28:26.506] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[26Dec2024 08:28:26.506] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[26Dec2024 08:28:26.506] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[26Dec2024 08:28:27.232] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.250] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.20.1-1.0.4.jar), 
+[28Dec2024 05:59:40.606] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[28Dec2024 05:59:40.611] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[28Dec2024 05:59:41.944] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Dec2024 05:59:41.957] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[28Dec2024 05:59:41.993] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[28Dec2024 05:59:42.034] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[28Dec2024 05:59:42.093] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serveramiwis/servidor_minecraft/mods/Connector-1.0.0-beta.36+1.20.1.jar%23148%23151!/ Service=ModLauncher Env=SERVER
+[28Dec2024 05:59:42.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 05:59:42.504] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 05:59:42.505] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 05:59:42.507] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[28Dec2024 05:59:43.026] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 50 dependencies adding them to mods collection
+[28Dec2024 05:59:43.951] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 14 candidates to load
+[28Dec2024 05:59:45.620] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[28Dec2024 05:59:47.136] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Dec2024 05:59:47.367] [main/ERROR] [dev.su5ed.sinytra.connector.service.FabricMixinBootstrap/]: Non-unique Mixin config name mixinextras.init.mixins.json used by the mods com_github_llamalad7_mixinextras and mixinextras
+[28Dec2024 05:59:47.373] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[28Dec2024 05:59:47.562] [main/WARN] [mixin/]: Reference map 'hamsters.refmap.json' for hamsters.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 05:59:47.569] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 05:59:47.717] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Dec2024 05:59:49.086] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[28Dec2024 05:59:49.086] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[28Dec2024 05:59:49.087] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[28Dec2024 05:59:49.089] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[28Dec2024 05:59:49.089] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[28Dec2024 05:59:49.089] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[28Dec2024 05:59:50.477] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[28Dec2024 05:59:52.770] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin from mod crittersandcompanions::handler$zlp000$crittersandcompanions$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[28Dec2024 06:00:00.133] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[28Dec2024 06:00:00.135] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.main to auto sync (content diff)
+[28Dec2024 06:00:00.141] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[28Dec2024 06:00:00.285] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Registered object did not get ID it asked for. Name: ResourceKey[minecraft:mob_effect / spell_power:critical_damage] Expected: 730 Got: 35
+[28Dec2024 06:00:00.286] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Registered object did not get ID it asked for. Name: ResourceKey[minecraft:mob_effect / spell_power:critical_chance] Expected: 731 Got: 36
+[28Dec2024 06:00:00.286] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Registered object did not get ID it asked for. Name: ResourceKey[minecraft:mob_effect / spell_power:haste] Expected: 732 Got: 37
+[28Dec2024 06:00:01.066] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[28Dec2024 06:00:01.072] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[28Dec2024 06:00:01.073] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.items to auto sync (file hash)
+[28Dec2024 06:00:01.074] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[28Dec2024 06:00:01.075] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[28Dec2024 06:00:01.075] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[28Dec2024 06:00:12.400] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
+[28Dec2024 06:00:12.493] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[28Dec2024 06:00:12.494] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[28Dec2024 06:00:13.949] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[28Dec2024 06:00:13.952] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 2 injected RegistryDataLoader worldgen registries
+[28Dec2024 06:00:15.029] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
+[28Dec2024 06:00:16.382] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[28Dec2024 06:00:16.747] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[28Dec2024 06:00:16.748] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[28Dec2024 06:00:16.749] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[28Dec2024 06:00:16.751] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[28Dec2024 06:00:16.777] [main/INFO] [journeymap/]: Initializing Packet Registries
+[28Dec2024 06:00:16.925] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[28Dec2024 06:00:16.925] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[28Dec2024 06:00:16.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[28Dec2024 06:00:16.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[28Dec2024 06:00:17.447] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[28Dec2024 06:00:17.447] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[28Dec2024 06:00:17.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18p1 Target: 5.10.3
+[28Dec2024 06:00:17.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28Dec2024 06:00:17.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
+[28Dec2024 06:00:17.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[28Dec2024 06:00:18.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
+[28Dec2024 06:00:18.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[28Dec2024 06:00:18.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA_OUTDATED Current: 3.0.0-beta.4 Target: 3.0.0-beta.9
+[28Dec2024 06:00:22.978] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28Dec2024 06:00:26.992] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[28Dec2024 06:00:26.993] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Running Pre Patchers on ./world/.
+[28Dec2024 06:00:27.006] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] Applying Fixes on Level
+[28Dec2024 06:00:27.007] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.reading%
+[28Dec2024 06:00:27.009] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.players%
+[28Dec2024 06:00:27.014] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/3955f2e8-25c9-4689-b0de-2c94de9e4bb4.dat
+[28Dec2024 06:00:27.014] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/10ea8d6e-4ef3-3d3d-8eb6-08e48ad1930f.dat
+[28Dec2024 06:00:27.015] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/b4918333-5328-3efd-a721-96c9a73e87ea.dat
+[28Dec2024 06:00:27.019] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.level%
+[28Dec2024 06:00:27.019] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting level.dat in ./world/.
+[28Dec2024 06:00:27.019] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.worlddata%
+[28Dec2024 06:00:27.020] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.regions%
+[28Dec2024 06:00:27.020] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
+[28Dec2024 06:00:27.020] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.1.mca
+[28Dec2024 06:00:27.021] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
+[28Dec2024 06:00:27.021] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.1.mca
+[28Dec2024 06:00:27.412] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.-1.mca
+[28Dec2024 06:00:27.413] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.1.mca
+[28Dec2024 06:00:27.414] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
+[28Dec2024 06:00:27.415] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
+[28Dec2024 06:00:27.415] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
+[28Dec2024 06:00:27.416] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-2.0.mca
+[28Dec2024 06:00:27.417] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.1.mca
+[28Dec2024 06:00:27.418] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
+[28Dec2024 06:00:28.263] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 51%
+[28Dec2024 06:00:28.263] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
+[28Dec2024 06:00:28.492] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-2.0.mca
+[28Dec2024 06:00:28.722] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
+[28Dec2024 06:00:28.873] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
+[28Dec2024 06:00:29.152] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
+[28Dec2024 06:00:29.160] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.1.mca
+[28Dec2024 06:00:29.348] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 72%
+[28Dec2024 06:00:29.349] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
+[28Dec2024 06:00:29.603] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-2.-1.mca
+[28Dec2024 06:00:29.640] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
+[28Dec2024 06:00:29.645] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-2.1.mca
+[28Dec2024 06:00:29.915] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.saving%
+[28Dec2024 06:00:29.916] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[28Dec2024 06:00:29.930] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/assets/.mcassetsroot' uses unexpected schema
+[28Dec2024 06:00:29.930] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serveramiwis/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23201!/data/.mcassetsroot' uses unexpected schema
+[28Dec2024 06:00:29.978] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on backpacked.common.mixins.json:common.ServerPlayerGameModeMixin from mod backpacked::handler$zmn000$backpacked$OnBlockMined exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[28Dec2024 06:00:30.096] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/biome
+[28Dec2024 06:00:30.130] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[28Dec2024 06:00:30.131] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_end_cave
+[28Dec2024 06:00:30.132] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[28Dec2024 06:00:30.135] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:jade_cave
+[28Dec2024 06:00:30.146] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[28Dec2024 06:00:30.147] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[28Dec2024 06:00:30.149] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:megalake_grove
+[28Dec2024 06:00:30.150] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:neon_oasis
+[28Dec2024 06:00:30.151] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:painted_mountains
+[28Dec2024 06:00:32.205] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (507c8b1f)
+[28Dec2024 06:00:32.208] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.210] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[28Dec2024 06:00:32.210] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[28Dec2024 06:00:32.211] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[28Dec2024 06:00:32.226] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (28b3162c)
+[28Dec2024 06:00:32.226] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.238] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (54393647)
+[28Dec2024 06:00:32.239] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.239] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[28Dec2024 06:00:32.239] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[28Dec2024 06:00:32.239] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[28Dec2024 06:00:32.240] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (325dfe0d)
+[28Dec2024 06:00:32.240] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.241] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (ce9b54f)
+[28Dec2024 06:00:32.241] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.242] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[28Dec2024 06:00:32.242] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[28Dec2024 06:00:32.242] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[28Dec2024 06:00:32.245] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (6b5bea18)
+[28Dec2024 06:00:32.245] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.246] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (63945cc8)
+[28Dec2024 06:00:32.246] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.246] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[28Dec2024 06:00:32.246] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[28Dec2024 06:00:32.247] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[28Dec2024 06:00:32.247] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (463f9c0b)
+[28Dec2024 06:00:32.247] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.465] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/surface_rules
+[28Dec2024 06:00:32.542] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid BCLBiome Registry available!
+[28Dec2024 06:00:32.542] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid Biome Registry available!
+[28Dec2024 06:00:32.840] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (b85e18)
+[28Dec2024 06:00:32.840] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.841] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (57426fc9)
+[28Dec2024 06:00:32.841] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[28Dec2024 06:00:32.842] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[28Dec2024 06:00:32.842] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[28Dec2024 06:00:32.842] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[28Dec2024 06:00:33.470] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from totw_modded-forge-1.20.1-1.0.4.jar)
+[28Dec2024 06:00:33.472] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:shaded_woodlands (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:crystal_dunes (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.20.1-1.0.4.jar), 
@@ -149,10 +163,10 @@
 	blue_skies:crystal_roughs (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:searing_grassland (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:crescent_orchard (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.252] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.253] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.255] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.264] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.20.1-1.0.4.jar), 
+[28Dec2024 06:00:33.476] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.20.1-1.0.4.jar)
+[28Dec2024 06:00:33.477] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.20.1-1.0.4.jar)
+[28Dec2024 06:00:33.478] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from totw_modded-forge-1.20.1-1.0.4.jar)
+[28Dec2024 06:00:33.478] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:brightlands (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:slushlands (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:frostbitten_forest (from totw_modded-forge-1.20.1-1.0.4.jar), 
@@ -160,21 +174,21 @@
 	blue_skies:snow_covered_pines (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:brisk_meadow (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	blue_skies:polar_highland (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.264] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.20.1-1.0.4.jar), 
+[28Dec2024 06:00:33.487] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	ad_astra:martian_wastelands (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.268] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.20.1-1.0.4.jar), 
+[28Dec2024 06:00:33.487] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.20.1-1.0.4.jar), 
 	ad_astra:glacio_ice_peaks (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:27.269] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.20.1-1.0.4.jar)
-[26Dec2024 08:28:28.298] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/swamp_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[26Dec2024 08:28:28.299] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/savannah_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[26Dec2024 08:28:28.299] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/miner_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[26Dec2024 08:28:28.300] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/dark_oak_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[26Dec2024 08:28:28.480] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Disabling Recipe: bclib:test_star
-[26Dec2024 08:28:28.501] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[26Dec2024 08:28:28.534] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[26Dec2024 08:28:28.541] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[26Dec2024 08:28:28.551] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[26Dec2024 08:28:28.565] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap
+[28Dec2024 06:00:33.488] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.20.1-1.0.4.jar)
+[28Dec2024 06:00:34.795] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/swamp_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Dec2024 06:00:34.796] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/savannah_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Dec2024 06:00:34.796] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/miner_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Dec2024 06:00:34.797] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:luminousworld:entities/dark_oak_zombie}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[28Dec2024 06:00:35.012] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Disabling Recipe: bclib:test_star
+[28Dec2024 06:00:35.054] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[28Dec2024 06:00:35.099] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[28Dec2024 06:00:35.106] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[28Dec2024 06:00:35.116] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[28Dec2024 06:00:35.126] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -201,7 +215,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:m
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[26Dec2024 08:28:28.578] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap_alt
+[28Dec2024 06:00:35.140] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe naturalist:frontier_cap_alt
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23201!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -228,7 +242,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:m
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[26Dec2024 08:28:28.589] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe betterend:guide_book
+[28Dec2024 06:00:35.155] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe betterend:guide_book
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23206!/:?]
@@ -259,223 +273,295 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[26Dec2024 08:28:28.601] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[26Dec2024 08:28:28.603] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[26Dec2024 08:28:28.604] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[26Dec2024 08:28:28.608] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[26Dec2024 08:28:28.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[26Dec2024 08:28:28.706] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement totw_modded:root: Expected item to be an item, was unknown string 'waystones:mossy_waystone'
-[26Dec2024 08:28:28.767] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:regular_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@634917cd, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@39fe946a}, criteria={regular=net.minecraft.advancements.Criterion@7010abea}, requirements=[[regular]], sends_telemetry_event=false}
-[26Dec2024 08:28:28.768] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:ice_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@6fd44ddc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@39fe946a}, criteria={ice=net.minecraft.advancements.Criterion@1a6ee437}, requirements=[[ice]], sends_telemetry_event=false}
-[26Dec2024 08:28:28.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:derelict_grass_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@59938815, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@39fe946a}, criteria={derelict_grass=net.minecraft.advancements.Criterion@34b1804c}, requirements=[[derelict_grass]], sends_telemetry_event=false}
-[26Dec2024 08:28:28.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:jungle_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@7b55ac71, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@39fe946a}, criteria={jungle=net.minecraft.advancements.Criterion@43dee0b7}, requirements=[[jungle]], sends_telemetry_event=false}
-[26Dec2024 08:28:28.771] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:derelict_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@7b54ed60, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@39fe946a}, criteria={derelict=net.minecraft.advancements.Criterion@4fbb71e5}, requirements=[[derelict]], sends_telemetry_event=false}
-[26Dec2024 08:28:28.771] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2953 advancements
-[26Dec2024 08:28:28.777] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[26Dec2024 08:28:28.787] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[26Dec2024 08:28:28.794] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
-[26Dec2024 08:28:28.818] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/venus_tower
-[26Dec2024 08:28:31.810] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/simplehats-forge-1.20.1-0.3.2.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.810] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.811] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.812] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Ribbits-1.20.1-Forge-3.0.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.813] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.813] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.813] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/LuminousMonsters%20V1.1%20-%201.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.814] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/totw_modded-forge-1.20.1-1.0.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.814] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Luminous%20Tag%20V1.0%20-%201.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.815] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/cosmeticarmorreworked-1.20.1-v1a.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.818] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Luminous%20V1.4.3%20-%201.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.819] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/kiwiboi-1.0.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.820] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.8.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.820] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/endermanoverhaul-forge-1.20.1-1.0.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.821] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.822] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.823] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.823] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.824] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/hamsters-forge-1.0.3-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.824] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.825] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Chimes-v2.0.1-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.826] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.827] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Connector-1.0.0-beta.36+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.830] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/journeymap-1.20.1-5.9.18p1-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.830] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/fabric-api-0.92.2+1.11.8+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.831] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/backpacked-forge-1.20.1-3.0.0-beta.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.834] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.838] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2145-universal.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.838] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/creeperoverhaul-3.0.2-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.838] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.839] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.839] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.839] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.840] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.840] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/ToroHealth-Unofficial-Forge-1.20.1-1.0.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.845] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/mvs-4.1.1-1.20-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.847] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/globalxp-forge-1.20.1-1.12.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.847] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/dragonseeker-1.2.0-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[26Dec2024 08:28:31.852] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (10195814)
-[26Dec2024 08:28:31.860] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
-[26Dec2024 08:28:31.860] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (ce9b54f)
-[26Dec2024 08:28:31.868] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Loading originally configured Dimensions in World.
-[26Dec2024 08:28:32.109] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[26Dec2024 08:28:32.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26Dec2024 08:28:32.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26Dec2024 08:28:32.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Dec2024 08:28:32.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26Dec2024 08:28:32.269] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[26Dec2024 08:28:32.338] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[26Dec2024 08:28:32.338] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[26Dec2024 08:28:32.339] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[26Dec2024 08:28:32.339] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[26Dec2024 08:28:32.358] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[26Dec2024 08:28:32.359] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[26Dec2024 08:28:32.360] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[26Dec2024 08:28:32.513] [Server thread/INFO] [Framework/]: Loading server configs...
-[26Dec2024 08:28:32.546] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (10195814)
-[26Dec2024 08:28:32.549] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (ce9b54f)
-[26Dec2024 08:28:32.552] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[26Dec2024 08:28:32.557] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+[28Dec2024 06:00:35.161] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[28Dec2024 06:00:35.163] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[28Dec2024 06:00:35.166] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[28Dec2024 06:00:35.170] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[28Dec2024 06:00:35.175] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[28Dec2024 06:00:35.323] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement totw_modded:root: Expected item to be an item, was unknown string 'waystones:mossy_waystone'
+[28Dec2024 06:00:35.427] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:regular_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@59938815, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@60c9a64b}, criteria={regular=net.minecraft.advancements.Criterion@7dd088ae}, requirements=[[regular]], sends_telemetry_event=false}
+[28Dec2024 06:00:35.428] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:ice_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@5aefadbb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@60c9a64b}, criteria={ice=net.minecraft.advancements.Criterion@2303cbb0}, requirements=[[ice]], sends_telemetry_event=false}
+[28Dec2024 06:00:35.428] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:derelict_grass_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@22423d5b, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@60c9a64b}, criteria={derelict_grass=net.minecraft.advancements.Criterion@1f212ce8}, requirements=[[derelict_grass]], sends_telemetry_event=false}
+[28Dec2024 06:00:35.428] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:jungle_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@31acf1b1, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@60c9a64b}, criteria={jungle=net.minecraft.advancements.Criterion@27fcdd00}, requirements=[[jungle]], sends_telemetry_event=false}
+[28Dec2024 06:00:35.428] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement totw_modded:derelict_tower: Task Advancement{parentId=totw_modded:root, display=net.minecraft.advancements.DisplayInfo@23c85495, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@60c9a64b}, criteria={derelict=net.minecraft.advancements.Criterion@621d9931}, requirements=[[derelict]], sends_telemetry_event=false}
+[28Dec2024 06:00:35.429] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2953 advancements
+[28Dec2024 06:00:35.443] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[28Dec2024 06:00:35.451] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[28Dec2024 06:00:35.454] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[28Dec2024 06:00:35.502] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/venus_tower
+[28Dec2024 06:00:39.883] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/simplehats-forge-1.20.1-0.3.2.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.884] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.887] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.894] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Ribbits-1.20.1-Forge-3.0.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.896] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.898] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.899] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/LuminousMonsters%20V1.1%20-%201.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.900] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/totw_modded-forge-1.20.1-1.0.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.901] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Luminous%20Tag%20V1.0%20-%201.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.901] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/cosmeticarmorreworked-1.20.1-v1a.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.917] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Luminous%20V1.4.3%20-%201.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.917] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/kiwiboi-1.0.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.919] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.8.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.920] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/endermanoverhaul-forge-1.20.1-1.0.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.920] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.922] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.923] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.924] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.925] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/hamsters-forge-1.0.3-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.926] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.926] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Chimes-v2.0.1-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.928] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.930] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/Connector-1.0.0-beta.36+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.936] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/journeymap-1.20.1-5.9.18p1-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.937] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/fabric-api-0.92.2+1.11.8+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.938] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/backpacked-forge-1.20.1-3.0.0-beta.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.945] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.954] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2145-universal.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.955] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/creeperoverhaul-3.0.2-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.956] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.957] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.958] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.958] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.961] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.961] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/ToroHealth-Unofficial-Forge-1.20.1-1.0.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.978] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/mvs-4.1.1-1.20-forge.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.984] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/globalxp-forge-1.20.1-1.12.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.984] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/serveramiwis/servidor_minecraft/mods/dragonseeker-1.2.0-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[28Dec2024 06:00:39.988] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Enforcing Correct Generator for minecraft:the_nether.
+[28Dec2024 06:00:39.989] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (463f9c0b)
+[28Dec2024 06:00:40.010] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (57426fc9)
+[28Dec2024 06:00:40.014] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Loading originally configured Dimensions in World.
+[28Dec2024 06:00:40.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[28Dec2024 06:00:40.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Dec2024 06:00:40.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Dec2024 06:00:40.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Dec2024 06:00:40.776] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Dec2024 06:00:40.823] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Dec2024 06:00:40.964] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Dec2024 06:00:40.965] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Dec2024 06:00:40.965] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Dec2024 06:00:40.965] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Dec2024 06:00:40.989] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 06:00:40.990] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 06:00:40.990] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 06:00:41.179] [Server thread/INFO] [Framework/]: Loading server configs...
+[28Dec2024 06:00:41.199] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (463f9c0b)
+[28Dec2024 06:00:41.206] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (57426fc9)
+[28Dec2024 06:00:41.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Dec2024 06:00:41.214] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
 Apply Modifications for twilightforest:twilight_forest
-    TFBiomeProvider (5ae549a2)
+    TFBiomeProvider (2c6e2651)
         biomes     = 21
         namespaces = twilightforest(21)
-[26Dec2024 08:28:32.557] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+[28Dec2024 06:00:41.215] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:overworld
+    MultiNoiseBiomeSource (5c67f3ec)
+        biomes     = 147
+        namespaces = minecraft(53), terralith(94)
+[28Dec2024 06:00:41.216] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (463f9c0b)
+        biomes     = 13
+        namespaces = minecraft(5), incendium(8)
+        seed       = 0
+        height     = 192
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[28Dec2024 06:00:41.216] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
 Apply Modifications for minecraft:the_end
-    BCLib - The End  BiomeSource (10195814)
+    BCLib - The End  BiomeSource (57426fc9)
         biomes     = 24
         namespaces = betterend(19), minecraft(5)
         seed       = -4453622106879708110
         height     = 128
         deciders   = 0
         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[26Dec2024 08:28:32.567] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
-Apply Modifications for minecraft:overworld
-    MultiNoiseBiomeSource (1c43a2a5)
-        biomes     = 147
-        namespaces = minecraft(53), terralith(94)
-[26Dec2024 08:28:32.570] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
-Apply Modifications for minecraft:the_nether
-    BCLib - Nether BiomeSource (ce9b54f)
-        biomes     = 13
-        namespaces = incendium(8), minecraft(5)
-        seed       = 0
-        height     = 192
-        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[26Dec2024 08:28:32.570] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] World Dimensions: 
+[28Dec2024 06:00:41.221] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] World Dimensions: 
  - twilightforest:twilight_forest: 
-     twilightforest.world.components.chunkgenerators.ChunkGeneratorTwilight@2e2143f0 
-     TFBiomeProvider (5ae549a2)
+     twilightforest.world.components.chunkgenerators.ChunkGeneratorTwilight@24a1ce9e 
+     TFBiomeProvider (2c6e2651)
          biomes     = 21
          namespaces = twilightforest(21)
+ - minecraft:overworld: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@e6eef6c 
+     MultiNoiseBiomeSource (5c67f3ec)
+         biomes     = 147
+         namespaces = minecraft(53), terralith(94)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (388ac2b0) 
+     BCLib - Nether BiomeSource (463f9c0b)
+         biomes     = 13
+         namespaces = minecraft(5), incendium(8)
+         seed       = 0
+         height     = 192
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
  - minecraft:the_end: 
-     BCLib - Chunk Generator (6abbb4d5) 
-     BCLib - The End  BiomeSource (10195814)
+     BCLib - Chunk Generator (401a9e25) 
+     BCLib - The End  BiomeSource (57426fc9)
          biomes     = 24
          namespaces = betterend(19), minecraft(5)
          seed       = -4453622106879708110
          height     = 128
          deciders   = 0
          config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
- - minecraft:overworld: 
-     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@79648c2d 
-     MultiNoiseBiomeSource (1c43a2a5)
-         biomes     = 147
-         namespaces = minecraft(53), terralith(94)
- - minecraft:the_nether: 
-     BCLib - Chunk Generator (7934b4d5) 
-     BCLib - Nether BiomeSource (ce9b54f)
-         biomes     = 13
-         namespaces = incendium(8), minecraft(5)
-         seed       = 0
-         height     = 192
-         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[26Dec2024 08:28:32.575] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 19 additional Surface Rules for 
-BCLib - The End  BiomeSource (10195814)
+[28Dec2024 06:00:41.226] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (57426fc9)
     biomes     = 24
     namespaces = betterend(19), minecraft(5)
     seed       = -4453622106879708110
     height     = 128
     deciders   = 0
     config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
-[26Dec2024 08:28:37.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Dec2024 08:28:41.287] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.289] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.289] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.290] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.290] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.291] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.291] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.292] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Dec2024 08:28:41.558] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[26Dec2024 08:28:42.057] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
-[26Dec2024 08:28:42.240] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4684 ms
-[26Dec2024 08:28:42.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.889s)! For help, type "help"
-[26Dec2024 08:28:42.300] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Dec2024 08:28:42.343] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
-[26Dec2024 08:28:42.345] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[26Dec2024 08:28:42.346] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[26Dec2024 08:28:53.709] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@18b12780[id=<null>,name=luchito546,properties={},legacy=false] (/127.207.97.113:52903) lost connection: Disconnected
-[26Dec2024 08:28:58.640] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luchito546[/127.207.97.113:33843] logged in with entity id 263 at (-67.5, 74.0, -11.5)
-[26Dec2024 08:28:58.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 joined the game
-[26Dec2024 08:28:59.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Ice and Fire]
-[26Dec2024 08:28:59.272] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[26Dec2024 08:28:59.274] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
-[26Dec2024 08:28:59.276] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[26Dec2024 08:28:59.278] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[26Dec2024 08:28:59.278] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[26Dec2024 08:28:59.278] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[26Dec2024 08:28:59.279] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[26Dec2024 08:28:59.279] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[26Dec2024 08:28:59.280] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[26Dec2024 08:28:59.280] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[26Dec2024 08:28:59.281] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/serveramiwis/servidor_minecraft/bclib-sync (allowDelete=true)
-[26Dec2024 08:29:16.264] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BOLLITO_zwz[/127.206.13.75:35625] logged in with entity id 439 at (-67.5, 74.0, -12.5)
-[26Dec2024 08:29:16.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz joined the game
-[26Dec2024 08:29:16.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Ice and Fire]
-[26Dec2024 08:29:18.960] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[26Dec2024 08:29:18.960] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
-[26Dec2024 08:29:18.960] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[26Dec2024 08:29:18.961] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[26Dec2024 08:29:18.961] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[26Dec2024 08:29:18.961] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[26Dec2024 08:29:18.961] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[26Dec2024 08:29:18.961] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[26Dec2024 08:29:18.962] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[26Dec2024 08:29:18.962] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[26Dec2024 08:29:18.962] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/serveramiwis/servidor_minecraft/bclib-sync (allowDelete=true)
-[26Dec2024 08:31:30.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Stone Age]
-[26Dec2024 08:31:37.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Monster Hunter]
-[26Dec2024 08:31:43.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Monster Hunter]
-[26Dec2024 08:34:43.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Stone Age]
-[26Dec2024 08:37:33.887] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: kaisyn:village/exclusives/mediterranean/villager_bishop
-[26Dec2024 08:37:46.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Getting an Upgrade]
-[26Dec2024 08:40:17.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Getting an Upgrade]
-[26Dec2024 08:41:34.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz was shot by Skeleton
-[26Dec2024 08:48:17.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Acquire Hardware]
-[26Dec2024 08:48:39.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Isn't It Iron Pick]
-[26Dec2024 08:48:46.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Isn't It Iron Pick]
-[26Dec2024 08:49:25.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Suit Up]
-[26Dec2024 08:53:54.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 fell from a high place
-[26Dec2024 08:55:09.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Diamonds!]
-[26Dec2024 08:57:01.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Acquire Hardware]
-[26Dec2024 08:59:54.305] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BOLLITO_zwz lost connection: Disconnected
-[26Dec2024 08:59:54.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz left the game
-[26Dec2024 09:00:04.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Diamonds!]
-[26Dec2024 09:00:05.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luchito546 lost connection: Disconnected
-[26Dec2024 09:00:05.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 left the game
-[26Dec2024 09:00:12.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[26Dec2024 09:00:12.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26Dec2024 09:00:12.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26Dec2024 09:00:12.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26Dec2024 09:00:13.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[26Dec2024 09:00:13.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[26Dec2024 09:00:13.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[26Dec2024 09:00:13.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[26Dec2024 09:00:13.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[26Dec2024 09:00:13.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[26Dec2024 09:00:13.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26Dec2024 09:00:13.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26Dec2024 09:00:13.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[26Dec2024 09:00:13.973] [Server thread/INFO] [Framework/]: Unloading server configs...
-[26Dec2024 09:00:13.974] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
-[26Dec2024 09:00:13.976] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Dec2024 06:00:50.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Dec2024 06:00:55.003] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.006] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.014] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.022] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.030] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.043] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.090] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.095] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.110] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Dec2024 06:00:55.500] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[28Dec2024 06:00:56.000] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[28Dec2024 06:00:56.507] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[28Dec2024 06:00:56.689] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5690 ms
+[28Dec2024 06:00:56.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.709s)! For help, type "help"
+[28Dec2024 06:00:56.747] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28Dec2024 06:00:56.778] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[28Dec2024 06:00:56.780] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[28Dec2024 06:00:56.780] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[28Dec2024 06:01:08.960] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luchito546[/127.236.170.135:52359] logged in with entity id 123 at (-215.17020271914097, -19.0, 271.2828844545045)
+[28Dec2024 06:01:09.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 joined the game
+[28Dec2024 06:01:09.565] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[28Dec2024 06:01:09.567] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[28Dec2024 06:01:09.570] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[28Dec2024 06:01:09.571] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[28Dec2024 06:01:09.571] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[28Dec2024 06:01:09.572] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[28Dec2024 06:01:09.572] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[28Dec2024 06:01:09.572] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[28Dec2024 06:01:09.573] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[28Dec2024 06:01:09.573] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[28Dec2024 06:01:09.573] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/serveramiwis/servidor_minecraft/bclib-sync (allowDelete=true)
+[28Dec2024 06:02:12.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 was shot by Skeleton
+[28Dec2024 06:02:47.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[28Dec2024 06:02:47.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[28Dec2024 06:02:47.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[28Dec2024 06:02:47.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[28Dec2024 06:02:47.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[28Dec2024 06:02:47.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[28Dec2024 06:02:47.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[28Dec2024 06:02:47.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[28Dec2024 06:02:47.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[28Dec2024 06:02:47.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[28Dec2024 06:02:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[28Dec2024 06:02:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[28Dec2024 06:02:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[28Dec2024 06:02:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[28Dec2024 06:02:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[28Dec2024 06:02:47.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[28Dec2024 06:02:47.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[28Dec2024 06:02:47.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[28Dec2024 06:02:47.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[28Dec2024 06:02:47.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[28Dec2024 06:02:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[28Dec2024 06:02:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[28Dec2024 06:02:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnCustomTrees|spawnRadius|spectatorsGenerateChunks|tfEnforcedProgression|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[28Dec2024 06:02:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[28Dec2024 06:02:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[28Dec2024 06:02:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[28Dec2024 06:02:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[28Dec2024 06:02:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[28Dec2024 06:02:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[28Dec2024 06:02:47.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[28Dec2024 06:02:47.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[28Dec2024 06:02:47.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[28Dec2024 06:02:47.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[28Dec2024 06:02:47.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[28Dec2024 06:02:47.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[28Dec2024 06:02:47.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[28Dec2024 06:02:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[28Dec2024 06:02:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[28Dec2024 06:02:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[28Dec2024 06:02:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[28Dec2024 06:02:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[28Dec2024 06:02:47.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[28Dec2024 06:02:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[28Dec2024 06:02:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[28Dec2024 06:02:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[28Dec2024 06:02:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[28Dec2024 06:02:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[28Dec2024 06:02:47.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[28Dec2024 06:02:47.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[28Dec2024 06:02:47.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[28Dec2024 06:02:47.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[28Dec2024 06:02:47.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[28Dec2024 06:02:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[28Dec2024 06:02:47.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[28Dec2024 06:02:47.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[28Dec2024 06:02:47.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[28Dec2024 06:02:47.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[28Dec2024 06:02:47.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[28Dec2024 06:02:47.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[28Dec2024 06:02:47.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[28Dec2024 06:02:47.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[28Dec2024 06:02:47.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[28Dec2024 06:02:47.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[28Dec2024 06:02:47.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[28Dec2024 06:02:47.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[28Dec2024 06:02:47.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[28Dec2024 06:02:47.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[28Dec2024 06:02:47.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[28Dec2024 06:02:47.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[28Dec2024 06:02:47.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[28Dec2024 06:02:47.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[28Dec2024 06:02:47.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[28Dec2024 06:02:47.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[28Dec2024 06:02:47.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trinkets set <group> <slot> <offset> <stack> [<count>]
+[28Dec2024 06:02:47.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bclib (place|print|dump_datapack|request_garbage_collection|debug_ore|sliceZ|sliceX)
+[28Dec2024 06:02:47.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /be (locate_portal|locate_portal_frame|tpnext)
+[28Dec2024 06:02:47.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /curios (list|replace|set|add|remove|clear|drop|reset)
+[28Dec2024 06:02:47.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /twilightforest [center|conquer|genbook|info|biomepng|shield]
+[28Dec2024 06:02:47.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tf -> twilightforest
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tffeature -> twilightforest
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /waypoint (create|delete)
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /wp -> waypoint
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /restore <target> <death_id> (replace|add)
+[28Dec2024 06:02:47.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /restoreinventory -> restore
+[28Dec2024 06:02:47.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clearcosarmor [<targets>]
+[28Dec2024 06:02:47.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /coshat
+[28Dec2024 06:02:47.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /unlockbackpack <backpack>
+[28Dec2024 06:03:33.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made luchito546 a server operator
+[28Dec2024 06:03:44.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luchito546: Set own game mode to Creative Mode]
+[28Dec2024 06:03:52.616] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BOLLITO_zwz[/127.206.13.75:53231] logged in with entity id 1423 at (-239.2518779284121, -22.0, 260.99813779861466)
+[28Dec2024 06:03:52.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz joined the game
+[28Dec2024 06:03:54.803] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[28Dec2024 06:03:54.803] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[28Dec2024 06:03:54.804] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[28Dec2024 06:03:54.804] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[28Dec2024 06:03:54.804] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[28Dec2024 06:03:54.804] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[28Dec2024 06:03:54.805] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[28Dec2024 06:03:54.805] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[28Dec2024 06:03:54.805] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[28Dec2024 06:03:54.805] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[28Dec2024 06:03:54.805] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/serveramiwis/servidor_minecraft/bclib-sync (allowDelete=true)
+[28Dec2024 06:04:17.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made BOLLITO_zwz a server operator
+[28Dec2024 06:04:47.059] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-501, y=-59, z=-682}
+[28Dec2024 06:04:47.061] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-500, y=-59, z=-681}
+[28Dec2024 06:04:47.061] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-499, y=-59, z=-681}
+[28Dec2024 06:04:47.061] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-498, y=-59, z=-681}
+[28Dec2024 06:04:47.062] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-497, y=-59, z=-682}
+[28Dec2024 06:04:47.062] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-497, y=-59, z=-683}
+[28Dec2024 06:04:47.062] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-501, y=-59, z=-683}
+[28Dec2024 06:04:59.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luchito546: Set own game mode to Survival Mode]
+[28Dec2024 06:07:33.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BOLLITO_zwz has made the advancement [Suit Up]
+[28Dec2024 06:08:39.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luchito546 has made the advancement [Not Today, Thank You]

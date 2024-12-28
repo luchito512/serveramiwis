@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "b4918333-5328-3efd-a721-96c9a73e87ea",
+    "name": "BOLLITO_zwz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "10ea8d6e-4ef3-3d3d-8eb6-08e48ad1930f",
+    "name": "luchito546",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
