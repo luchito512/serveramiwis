@@ -44,9 +44,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:bamboo_jungle": "2024-12-26 08:29:17 +0000",
+      "minecraft:savanna_plateau": "2024-12-28 06:19:52 +0000",
       "minecraft:beach": "2024-12-26 08:43:38 +0000",
       "minecraft:river": "2024-12-26 08:38:23 +0000",
       "minecraft:lush_caves": "2024-12-26 08:42:35 +0000",
+      "minecraft:desert": "2024-12-28 06:35:55 +0000",
       "minecraft:jungle": "2024-12-26 08:38:31 +0000",
       "minecraft:savanna": "2024-12-28 06:15:43 +0000"
     },
@@ -1858,6 +1860,18 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-28 06:24:30 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/charcoal_block": {
+    "criteria": {
+      "has_charcoal": "2024-12-28 06:16:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-12-28 06:05:52 +0000"
@@ -1945,6 +1959,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-12-28 06:05:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/lectern": {
+    "criteria": {
+      "bestiary": "2024-12-28 06:18:33 +0000"
     },
     "done": true
   },
@@ -2053,6 +2073,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2024-12-28 06:13:03 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2024-12-28 06:18:17 +0000"
     },
     "done": true
   },
